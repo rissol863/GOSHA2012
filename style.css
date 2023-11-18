@@ -1,0 +1,681 @@
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.container-boss{
+    display: flex;
+    
+}
+.df{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.container-two-slide{
+    margin-right: 40px;
+}
+header{
+    margin-top: 40px;
+    z-index: 10;
+    margin-bottom: 30px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-right: 35px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.left-photo{
+    margin-right: 30px;
+    margin-left: 51px;
+}
+
+.mini-container{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    color: #122947;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* 
+.mini-containertwo{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+} */
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+  
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: lighter;
+    color: #122947;
+}
+
+.main-text{
+    text-align: center;
+    color: #122947;
+}
+
+.div-buttom{
+    display: flex;
+    justify-content: center;
+}
+
+.main-button{
+    text-decoration: none;
+    padding: 13px 27px;
+    border: 1px solid #B3BAC1;
+    color: #122947;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.jeb{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mini-contwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.mini-contthree{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+.A{
+    width: 55px;
+    height:5px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.menutwo{
+    display: none;
+    position: absolute;
+    bottom: -150px;
+    margin: 0;
+    margin-bottom: 80px;
+    left: -24px;
+}
+
+
+
+.contfour{
+    position: relative;
+}
+
+ul li a{
+--fill-color: #122947;
+position: relative;
+display: block;
+padding: 4px 0;
+font: 100 30px Raleway, sans-serif;
+text-decoration: none;
+
+-webkit-text-stroke: 2px var(--fill-color);
+background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+ color: transparent; 
+-webkit-background-clip: text;
+        background-clip: text;
+transition: 0.5s linear;
+}
+ul li a:hover {
+background-size: 100%;
+}
+
+.container-roditel{
+    justify-content: center;
+    height: 100%;
+    position: fixed;
+    z-index:  10;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.374);
+}
+
+.container_2{
+   width: 600px;  
+   height: 300px;
+   background-color: beige; 
+   margin-bottom: 180px; 
+}
+
+.cena{
+    display: flex;
+    justify-content: center;
+}
+
+.gel{
+    display: flex;
+    justify-content: center;
+}
+
+.close{
+    font-size: 30px;
+    margin-left: 15px;
+}
+.alltogether-container{
+    display: flex;
+    justify-content: right;
+}
+.container-two-slide{
+    margin-left: 98px;
+}
+
+
+.text-two-slide{
+    font-size: 24px;
+    margin-bottom: 53px;
+}
+
+
+.containet-two-two-slide{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.container-strelka-two-slide{
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    margin-top: 25px;
+}
+
+.strelka-left{
+    margin-right: 32px;
+}
+
+.knopka-two-slide{
+    background-color: white;
+    color: #122947;
+    text-decoration: none;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid; 
+    border-radius: 10px;
+}
+
+.r{
+    margin-right: 30px;
+}
+
+.krem_one{
+    position: relative;
+}
+
+.container-kakoyto{
+    position: absolute;
+    top: 0;
+    margin-top: 220px;
+    margin-left: 68px;
+}
+
+.p_one{
+    margin-left: 38px;
+}
+
+
+.container-kakoyto{
+    position: absolute;
+    top: 0;
+    margin-top: 220px;
+    margin-left: 68px;
+}
+
+.krem_two{
+    position: relative;
+}
+
+.p_three{
+    margin-left: 38px;
+}
+
+.container-kakoyto{
+    position: absolute;
+    top: 0;
+    margin-top: 220px;
+    margin-left: 68px;
+}
+
+.krem_three{
+    position: relative;
+
+}
+
+.p_fife{
+    margin-left: 38px;
+}
+
+.container-kakoyto{
+    position: absolute;
+    top: 0;
+    margin-top: 220px;
+    margin-left: 68px;
+}
+
+.krem_four{
+    position: relative;
+}
+
+.p_seven{
+    margin-left: 38px;
+}
+
+.T{
+    margin-top: -25px;
+    width: 70px;
+    height: 16px;
+    top: 1061px;
+    left: 478px;
+    border: 1px;
+    text-decoration: underline;
+    color: #122947;
+}
+.menu-Gosha{
+    position: relative;
+}
+.top-menu{
+    position: absolute;
+}
+.ul-meenu{
+    display: flex;
+    justify-content: right;
+}
+
+.Gosha-foot{
+    position: relative;
+    
+}
+
+.menu-footer{
+    position: absolute;
+    left: -30px;
+    padding: 0;
+}
+.u{
+    margin-bottom: 0;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    display: none;
+    background-color: rgba(6, 6, 6, 0.413);
+}
+
+
+.photofour-one{
+    width: 230px;
+    height: 311px;
+}
+
+
+    .menu-footer{
+        width: 1366px;
+        height: 195px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .MAROON_two{
+        margin-right: 30px;
+        
+        
+    }
+
+    .ck{
+        display: flex;
+    }
+
+    .kc{
+        display: flex;
+    }
+
+    .container-fool{
+        display: flex;
+        align-items: center;
+    }
+
+    .h{
+        margin-right: 30px;
+    }
+    .roditel-kakoyto{
+        width: 900px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+   .container_fotoes{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+   }
+
+   .divi{
+    background-color: black;
+    display: none;
+    width: 40px;
+    height: 10px;
+    margin-top: 7px;
+   }
+
+   .h1-div{
+    display: flex;
+    align-items: center;
+   }
+nav{
+    display: flex;
+}
+
+   .cb{
+    display: none;
+   }
+
+   .ya{
+    display: none;
+   }
+
+   .uy{
+    margin-right: 30px;
+   }
+
+   .wrapper{
+    display: flex;
+    align-items: center;
+   }
+
+   .ty{
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    margin-top: 7px;
+   }
+
+   .lishkitwo{
+    width: 50px;
+   }
+
+   .menu-footer{
+    width: 50px;
+   }
+
+   .byrger{
+    display: none;
+    margin-left: 20px;
+   }
+
+   .magic{
+    display: flex;
+    align-items: center;
+  
+   }
+
+   .top-menu{
+    background-color: blue;
+    display: none;
+   }
+
+   .pop{
+    font-size: 30px;
+   }
+
+@media(max-width:1391px){
+    .menu{
+        display: none;
+    }
+
+    .byrger{
+        display: block;
+    }
+
+    .magic{
+        
+    }
+
+    .menutwo{
+        display: block;
+    }
+  
+}
+
+
+@media(max-width:1280px){
+    .roditel-kakoyto{
+        display: block;
+    }
+
+    .y{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .w{
+        display: flex;
+        justify-content: center;
+    }
+
+    .z{
+        display: flex;
+        justify-content: center;
+        width: 58vw;
+    }
+
+    .big-brother{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-two-two-slide{
+        display: block;
+    }
+
+}
+
+@media(max-width:1260px){
+    .mini-center,.y{
+        width: 58vw;
+    }
+
+}
+
+@media(max-width:1211px){
+    .menu{
+        display: none;
+    }
+    .byrger{
+        display: block;
+    }
+}  
+@media(max-width:1801px){
+    .ck{
+        display: flex;
+        justify-content: center;
+    }
+    .kc{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .alltogether-container{
+
+        justify-content: center;
+    }
+    .container-boss{
+        display: block;
+    }
+
+    .container-two-slide{
+        text-align: center;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .container-two-slide{
+        margin-left: 0;
+    }
+}
+
+@media  (max-width:1621px){
+    .container-strelka-two-slide{
+        width:80% ;
+    }
+}
+@media  (max-width:1075px){
+.roditel-kakoyto{
+    flex-direction: column;
+}
+}
+@media  (max-width:1075px){
+    .containet-two-two-slide{
+        display: flex   ;
+        justify-content: right;
+    }
+
+    .kc{
+        display: flex;
+        justify-content: left;
+    }
+
+    .container-strelka-two-slide{
+        width: 70%;
+    }
+}
+  
+
+@media(max-width:895px){
+    .menu-footer{
+        display: none;
+    }
+    .divi{
+        display: block;
+    }
+}
+@media(max-width:885px){
+    .container-fool{
+        justify-content: space-between;
+    }
+}
+@media(max-width:750px){
+    .container_2 {
+        max-width: 80%;
+    }
+}
+@media(max-width:550px){
+    .alltogether-container{
+        display: block;
+    }
+    .containet-two-two-slide{
+        justify-content: center;
+    }
+    .kc{
+        justify-content: center;
+    }
+}
+
+
+ 
+@media(max-width:518px){
+    .MAROON_two{
+        font-size: 200%;
+        margin-right: 20px;
+    }
+    .cb{
+        display: flex;
+    }
+    .container_fotoes{
+        display: none;
+    }
+    .container-fool
+    {
+        justify-content: space-between;
+    }
+}
+@media(max-width:490px){
+    .df{
+        width: 85vw;
+    }
+}
+@media(max-width:465px){
+    h1{
+        font-size: 12vw;
+    }
+
+    .tri-tri{
+        display: flex;
+    }
+    .magic{
+        justify-content: space-between;
+        width: 150%;
+    }
+}
+
+@media(max-width:385px){
+    .left-photo,.right-photo{
+        max-width: 120%;
+    }
+}
+
+
+
+    ul li a{
+        --fill-color: #000000;
+        position: relative;
+        display: block;
+        padding: 4px 0;
+        font: 700 3rem Raleway, sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px var(--fill-color);
+        background: linear-gradient(var(--fill-color) 0 100%) left/0 no-repeat;
+        color: transparent;
+        -webkit-background-clip: text;
+                background-clip: text;
+        transition: 0.5s linear;
+        }
+        ul li a:hover {
+        background-size: 100%;
+        }
+
+       
+
+
